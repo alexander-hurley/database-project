@@ -1,0 +1,12 @@
+PRAGMA foreign_keys = OFF;
+DROP TABLE tblLeague;
+DROP TABLE tblDivision;
+DROP TABLE tblSponsor;
+DROP TABLE tblPosition;
+DROP TABLE tblStadium;
+DROP TABLE tblPlayer;
+DROP TABLE tblStaff;
+DROP TABLE tblTeam;
+DROP TABLE tblLeaderboard;
+DELETE FROM sqlite_sequence;
+PRAGMA foreign_keys = ON;
